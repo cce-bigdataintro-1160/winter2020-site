@@ -1,4 +1,4 @@
-# Intro 2 Linux
+# Operating the Shell
 
 ### Objectives
 * A brief introduction to OS and Linux
@@ -15,12 +15,11 @@
   * Storage (or Persistent) state: File systems/Disk
   
 * Big Data Software will try to leverage these resources to work in a coordinated and distributed way across many nodes
-* [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata): In this link we have an exhaustive list of Big Data open software. Most of it was built to run on Linux distributions only.
-* [Cloudera Open Source](https://www.cloudera.com/products/open-source/apache-hadoop/key-cdh-components.html) Another list, now composed of Cloudera's open source software for Big Data, also meant to be run on Linux platform.
+* Most of the [Big Data](https://github.com/onurakpolat/awesome-bigdata) open source software was built to run on Linux distributions only.
 * [The Linux Ancestry](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg): An image describing where Linux comes from
 * [Linux list of distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions): A description of existing Linux distributions. The most widely used are Ubuntu, Debian and CentOS(RedHat)
 
-### Learn what's the shell
+### What's Bash?
 * Bash is an implementation of a shell: a command processor that typically runs in a text window where the user types commands that cause actions.
 
 * [The shell](./bash-git-files/shell.png): An image depicting the utility of the shell, interfacing inputs and outputs towards the kernel(core) of Linux
