@@ -14,7 +14,7 @@
 
 ## Course Outline
 1. [Intro 2 Course & Big Data](./1-intro.md)
-2. [Operating the shell](2-bash.md)
+2. [Operating the terminal](2-bash.md)
 3. [Version Control](2-git.md)
 4. [Reading and Writing Datasets with Python](./3-python.md)
 5. [Manipulating Datasets with Python](./5-pythonadv.md)
