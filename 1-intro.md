@@ -1,8 +1,7 @@
 # Intro 2 Programming & Big Data
 
 ### Agenda
-* Intro Slides: Introductions Slides used on the first class
-* Ensuring our communication on [Slack](https://join.slack.com/t/cebd1160-fall2019/shared_invite/enQtNzY4Mjk1NjYzNzYwLWIxNjFmZWQ5Mzc2MTY1NmE0OWQ0ZDNlNWIxMjc3NzZlMjg2YTI5MWViYTc5ZmJmMGY1OThjMWNhODZmZDhlYmI)
+* Intro Slides: Let's go through a feel slides to see what's this course is about
 * [Reviewing Toys Datasets](https://scikit-learn.org/stable/datasets/index.html#toy-datasets): All the `Toys Datasets` available in the sklearn datasets module
 * Homework
 
