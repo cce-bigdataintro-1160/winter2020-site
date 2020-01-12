@@ -5,6 +5,11 @@
 * Learn what's the shell
 * Be able to Navigate through the file system
 * Work with Files and Directories
+* Use External Tools and Gnu Core Tools to enhance your shell skills
+* Finding files and contents in files
+* Write loops to iterate over lists
+* Create scripts to automate basic processes
+* Scheduling commands and scripts with the crontab
 
 ### A brief introduction to OS and Linux
 * [Operating Systems](https://en.wikipedia.org/wiki/Operating_system): An operating system provides facilities to interface between applications and hardware using low level libraries and drivers.
@@ -81,7 +86,7 @@
 7. Can you explain the command `grep John remorquages.csv | wc -l` and why would you use it?
 8. Split the train.csv file in multiple files with 20 lines each.
 
-##### Finding files and contents in files
+### Finding files and contents in files
 * Let's look at the example in code project
 
 1. Find the person called `Torborg` in the titanic file `train.csv`
@@ -90,14 +95,14 @@
 4. Find all csv files in your home directory. Play with the `-maxdepth` flag to see the difference.
 5. Print all the `grep` commands you did today.
 
-##### Write loops to iterate over lists
+### Write loops to iterate over lists
 * Let's look at the example in code project
 
 1. Download the `ultratrail-du-montblanc.zip` file from Slack and unzip it to `/Users/<myusername>/ultratrail`
 2. Write a loop that prints the name, dimension and first 2 lines for each of the `.csv` files.
 3. Write a loop that copies each of the `.csv` files with the prefix `bkp-` to a folder `/Users/<myusername>/ultratrail/backups`. 
 
-##### Create scripts to automate basic processes
+### Create scripts to automate basic processes
 * Any file containing shell commands can be executed as a shell script
 * Shell script files will usually have a `.sh` extension and begin with the shebang line: `#!/bin/bash`
 * In order to execute a script, first make it executable by adding the x permission right to it with `chmod +x <name of script>.sh`
@@ -114,6 +119,13 @@
      touch $dir-files/$dir
    done
    ```
+
+### Scheduling commands and scripts with the crontab
+* The crontab is a command scheduler that allows us to run commands on predefined schedules
+* Its widely used for maintenance tasks, like cleaning up directories and backing up data
+* Uses a [crontab schedule expression](https://crontab.guru/) to describe the execution times
+* Use the commands `crontab -e` to edit and `crontab -l` to list the existing scheduled commands
+* Let's schedule our crontab to save the current date at every minute to the file dates.txt on the home directory as an example
 
 ### Final notes on Linux and Shell
 * Let's review what we've learned today
