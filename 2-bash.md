@@ -73,7 +73,7 @@
 15. Create a file (using `vi` or `nano` editors) called `a_dataset.csv` in your home directory, write a few `csv` lines in it and save it.
 
 ### Use External Tools and Gnu Core Tools to enhance your shell skills
-* A quick view on other tools available to explore and manipulate files
+* A quick view on other tools available to explore and manipulate files, the following will help us solve the most common data manipulation problems: identify csv file headers, provide file dimensions, select slices of files, split files and concatenate files
 * [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/): A list of all standard shell commands present on any Unix distribution
 * Let's look at the example in code project
 
@@ -147,6 +147,5 @@
 ### Advanced exercises material
 * [crontab tutorial](https://www.ostechnix.com/a-beginners-guide-to-cron-jobs/): a beginners tutorial for using the crontab
 * [cmdchallenge](https://cmdchallenge.com/): Can you complete these challenges from 
-* [Oh My Zsh](https://ohmyz.sh/): Extension to use the shell like a boss
 
 [Back To Main Page](./index.md)

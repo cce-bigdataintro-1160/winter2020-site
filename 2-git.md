@@ -31,9 +31,8 @@
 * In order to use git we'll need to initialize a repository, add files to it and commit them
 * To understand what's happening, we'll use the `status` and `log` commands 
 * Finally we'll see how the checkout command allows us to navigate across commits
-* [Git Commands](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/6-git_commands.sh)
+* Let's look for a few git commands
 
-* Do the following exercise in pairs:
 1. Create a directory called `my-first-repo`. 
 2. Navigate to it and initialize a git repository with `git init`. Check it with `git status` 
 3. Create the files `cleaner.py`, `processor.py`, `data.csv`, write a few lines in each. Check the `git status` 
@@ -51,16 +50,17 @@
 * Here are a some of the existing [Distributed Workflows](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows) possible with git
 * [GitHub](https://github.com/) is one of the most used git remote servers, allowing users not only to have shared repositories but to also collaborate using other tools like wikis, issue trackers and others
 * We'll now learn how to synchronize our work with GitHub which will be our main point of collaboration for this course
-* [Remote Git Commands](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/7-git_remote_commands.sh)
+* Let's look for a few git remote commands
 
-* Do the following exercise in pairs: 
-1. Create a repository `class2-notebook` in GitHub
+1. Create a repository `git-notebook` in GitHub
 2. Use the `git clone <repository url>` command to clone it locally.
 3. In the cloned repository you must create, add and commit a file called `README.MD` following the steps from previous exercise!.
 4. Push your changes to GitHub using the command `git push` after you commit.
 5. Use GitHub UI in your browser to visualize the file
 6. Use the GitHub UI to modify the file and commit it.
 7. Use the command `git pull` to fetch the latest changes to your local machine
+
+* We can also share an existing project directly from PyCharm into GitHub using the VCS >> Import into Version Control option
 
 ### Final notes on Version Control with Git
 * Let's review what we've learned today
@@ -75,12 +75,10 @@
 ### Recommended References
 * [Git CheatSheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) All git commands in a single cheatsheet
 * [Git UI Tools](https://git-scm.com/downloads/guis/): A list of UI tools for git
-* [Git Documentation](https://git-scm.com/doc): The Official documentation for using git
 * [Git Reference](https://git-scm.com/docs): A reference to all git commands
 * [Troubleshooting for Windows users](https://help.github.com/en/articles/configuring-git-to-handle-line-endings) who receive a message about incompatible line endings (CLRF vs LF)
 
 ### Advanced exercises material
 * [Git Branching](https://learngitbranching.js.org/): Learn what git does in a visual way with this website
-* [Official Pro Git Book](https://git-scm.com/book/en/v2): The Official Pro Git Book
 
 [Back To Main Page](./index.md)
