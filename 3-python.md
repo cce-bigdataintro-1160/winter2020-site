@@ -1,12 +1,14 @@
-# Python Data Structures and Conditionals
+# Reading and Writing Datasets with Python
 
 ### Agenda
-* Intro 2 Python
+* Reviewing Python
 * The Python Shell
 * Writing a Python script
-* Reading files with Python
+* Reading files
+* Writing Files
+* Fetching Files in the web and cloud
 
-### Intro to Python
+### Reviewing Python
 * Python is a programming language created in 1991 with a design Philosophy emphasizing Code Readability
 * Due to its simplicity, it's always been largely used for academic purposes, but it really took off around 2011 due to its compatibility with several popular platforms like PySpark and AWS Lambda. 
 * A few characteristics from the Python language are:
@@ -27,12 +29,11 @@
   * We can use a tool called Python Shell by typing `python3` on the terminal. This will provide us with a special shell capable of running any python commands
 
 ### The Python Shell
-* Let's start the python shell in our terminals by typing `python3`
+* Let's start the python shell in our terminals by typing `python3` and do the following steps together
 
      ![pythonshell](./python-files/pythonshell.png)   
 
-1. Using the Python Shell, do the following exercise in pairs:
-2. Check what's the type of the following values:
+1. Check what's the data type of the following values:
 
 ```
    type(1)
@@ -42,15 +43,15 @@
    type([1,2,"intruder",3])
 ```
 
-3. Use the command `help(str)`. What does the built-in help() method does?
-4. Use the command `dir(str)`. What does the built-in dir() method does?
-5. Write an equation that uses multiplication, subtraction and an addition that is equal to 42.5. 
-6. Assign the result to the variable `result`. Ex: `result = <my equation formula>` 
-7. Print your variable using `print(result)`
-8. Given the string `'big data'` use slicing to produce the string `'g da'`
+2. Use the command `help(str)`. What does the built-in help() method does?
+3. Use the command `dir(str)`. What does the built-in dir() method does?
+4. Write an equation that uses multiplication, subtraction and an addition that is equal to 42.5. 
+5. Assign the result to the variable `result`. Ex: `result = <my equation formula>` 
+6. Print your variable using `print(result)`
+7. Given the string `'big data'` use slicing to produce the string `'g da'`
 
 ### Writing a Python script
-* Let's now look how to write scripts and execute them
+* Let's now look how to write Python scripts and execute them
 * A Python script can be written with any text editor, but we'll be using PyCharm, a powerful IDE to assist us
 * Let's start by creating a project `python-notebook` in GitHub and cloning it locally using `git clone <my repo url>` in the Terminal
 * Let's open PyCharm and familiarize ourselves with the tool:
@@ -62,7 +63,7 @@
 * On a separate directory (outside `python-notebook`, clone the course code project using `git clone https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code.git`
 * Open this project in PyCharm in a separate window and let's see a few script examples
 
-1. Go back to your previous `python-notebook` project and do the following exercise in pairs:
+1. Go back to your previous `python-notebook` project and do the following exercises:
 2. Copy the script below and run it using `python3 testing_scripts.py`:
 
 ```
@@ -84,13 +85,15 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 
 3. Write a script that prints the double of all values between 4 and 8 on the list `[1,2,3,4,5,6,7,8,9]`
 4. Write a Python program that separates all values in the list `[1,2,3,4,5,6,7,8,9]` in two other lists. One resulting list should contain all even numbers and the other should contain all odd numbers.
-5. Add, commit and push these scripts to the `python-notebook` repository in GitHub!
+5. A script that prints the integers from 1 to 100. For multiples of three print "Fizz" instead , and for the multiples of five print "Buzz". For numbers which are multiples of both print "FizzBuzz"
+1. A script that receives two numbers and prints the lesser of two numbers if both numbers are odd, but prints the greater one if one or both numbers are even!
+6. Add, commit and push these scripts to the `python-notebook` repository in GitHub!
 
-### Reading files with Python
+### Reading files 
 * Let's now take a look of how to read a file using Python, this will be our first step towards reading datasets
 * Let's see a few script examples together
 
-1. In `python-notebook` project and do the following exercise in pairs:
+1. In `python-notebook` project do the following exercise:
 2. Copy the boston housing dataset file in your project
 3. Create a script called `my_csv_reader.py`
 4. Check if the boston housing dataset file path is really a file. If it is print `I have a file to process`, otherwise print `Boo, no file for me.`
@@ -107,19 +110,30 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
    ```
 8. Add, commit and push this script to the `python-notebook` repository in GitHub!
 
-### Final notes on Learning Python
+### Writing Files
+* Let's now take a look of how to write a file using Python
+
+1. Write a script capable of reading all the lines of a csv file
+2. It should then validate that each line has the same number of values as the header, any lines with a different number of values as the headers should be saved in a separate list
+3. Write back to the same directory a "clean" version of the file
+4. Write another file containing only the "invalid" lines of the file
+
+### Fetching Files in the web and cloud
+* Let's also take a look of how to obtain files from urls and APIs
+* In Big Data, the cloud is often used as a good storage option due to its size scalability, high level of data resilience and availability
+
+1. Download the dataset `http://donnees.ville.montreal.qc.ca/dataset/5829b5b0-ea6f-476f-be94-bc2b8797769a/resource/c6f482bf-bf0f-4960-8b2f-9982c211addd/download/interventionscitoyendo.csv` to your local computer using the techniques seen in the examples.
+2. Use the pandas library to load the dataset and print its shape and information 
+
+### Final notes on Reading and Writing Datasets with Python
 * Let's review what we've learned today
 * Today we learned three ways to execute Python code: the Python Shell, running scripts with the Python interpreter and running in PyCharm. In the future classes we'll also learn how to use Jupyter notebooks a powerful prototyping tool frequently used for Data Science 
 * We've learned Python's basic types and the operations we can use on them
-* We looked and loops and conditionals, two very important constructs to control execution flow in a script
-* We've learned how to manipulate and read files using Python
+* We've learned how to read and write local files using Python
+* We've learned how to retrieve files using Python over the cloud
 
 ### Additional Exercises Material
 * [Extra exercises](./3-python-exercises.md): Additional exercises to practice each Python topic
-
-### Optional homework(no need to submit, preparation for next class)
-* Research what is a Python external `library` and what can you do with it.
-* Research what are the `numpy` and `pandas` python libraries and what are they used for.
 
 ### Recommended Readings
 * [Software Carpentry Python Lesson](http://swcarpentry.github.io/python-novice-inflammation/index.html): Software Carpentry Lesson on Python basics for data manipulation (Modules)
