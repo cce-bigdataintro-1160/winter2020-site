@@ -6,7 +6,7 @@
 * [Course links](./links.md)
 
 ## Communication
-* [Slack Channel Invitation](https://join.slack.com/t/cebd1160-winter2020/shared_invite/enQtODg3NzgxMjI1NjY0LTkzMTRjNTY0YzA0NzM1MWEzZDY0ZTM3NjI1NTVhNzMyZDA5N2Q4NzI3NzhmNmZhNGI2YTM5YjEyNTQ0ODE4ZWI)
+* [Slack Channel Invitation](https://join.slack.com/t/cebd1160-winter2020/shared_invite/enQtOTE0MDk3MzEyMjc5LWJjYjNlZDM4YzQ4YzU3YTU4ZmRhYTdhZTgwOTZmODc4MDJjNjZhZDQ2ZGYxYjQyMWNmZDU5NGQ0MjhjODgyOGU)
 * [CEBD 1160 Slack](https://cebd1160-winter2020.slack.com/)
 
 ## Calendar
