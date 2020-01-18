@@ -1,4 +1,4 @@
-# Intro 2 Programming & Big Data
+# Intro 2 Course & Big Data
 
 ### Agenda
 * Intro Slides: Let's go through a feel slides to see what's this course is about
