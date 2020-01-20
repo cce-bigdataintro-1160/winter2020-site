@@ -48,7 +48,7 @@
 5. Test the following commands: `cd .`, `cd ..`, `cd /` and  `cd ~`. Can you explain what each of those symbols mean?
 6. From your home directory test both commands and explain the difference: `cd Desktop` and `cd /Desktop`
 7. What command can give you the most recently modified file in your home directory? Hint, use `man ls` to find the right flags to use.
-8. Download the file titanic.zip from Slack using the UI and locate it through the shell by navigating and listing it. Tip: it will be in your Downloads directory, inside the your home directory.
+8. Download the file [titanic.zip](bash-git-files/titanic.zip) and locate it through the shell by navigating and listing it. Tip: it will be in your Downloads directory, inside the your home directory.
 
 ### Work with Files and Directories
 * Let's spend some time getting to know the most basic file operations we can do on a file system.
@@ -57,7 +57,7 @@
 * Let's look at the example in code project
 
 1. Create a directory called `learning-shell` in your home directory
-2. Download the file `random-datasets` from Slack
+2. Download the file [random_datasets.zip](bash-git-files/random_datasets.zip) from Slack
 3. Copy it from your `~/Downloads` directory into your `learning-shell` directory
 4. Unzip it using `unzip random-datasets.zip`
 5. Look at those files contents by printing some files in your directories using `cat` or `less`
@@ -98,7 +98,7 @@
 ### Write loops to iterate over lists
 * Let's look at the example in code project
 
-1. Download the `ultratrail-du-montblanc.zip` file from Slack and unzip it to `/Users/<myusername>/ultratrail`
+1. Download the [ultratrail-du-montblanc.zip](bash-git-files/ultratrail-du-montblanc.zip) file from Slack and unzip it to `/Users/<myusername>/ultratrail`
 2. Write a loop that prints the name, dimension and first 2 lines for each of the `.csv` files.
 3. Write a loop that copies each of the `.csv` files with the prefix `bkp-` to a folder `/Users/<myusername>/ultratrail/backups`. 
 
