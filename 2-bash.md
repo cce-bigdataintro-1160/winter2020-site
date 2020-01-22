@@ -19,8 +19,11 @@
   * Processing (or In-Memory) state: Applications, scripts, programs
   * Storage (or Persistent) state: File systems/Disk
   
-* Big Data Software will try to leverage these resources to work in a coordinated and distributed way across many nodes
-* Most of the [Big Data](https://github.com/onurakpolat/awesome-bigdata) open source software was built to run on Linux distributions only.
+* Why learn Linux?  
+  * Big Data Software will try to leverage these resources to work in a coordinated and distributed way across many "commodity hardware" nodes
+  * Most of the [Big Data](https://github.com/onurakpolat/awesome-bigdata) open source software was built to run on Linux distributions only.
+  * Large sets of data are hard to move: it's easier to work remotely on a Linux server with access to the data
+  * Will make more sense in the Infrastructure course, but knowing the basics will help you deal with working on Mac
 * [The Linux Ancestry](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg): An image describing where Linux comes from
 * [Linux list of distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions): A description of existing Linux distributions. The most widely used are Ubuntu, Debian and CentOS(RedHat)
 
@@ -63,14 +66,9 @@
 5. Look at those files contents by printing some files in your directories using `cat` or `less`
 6. Lets organize this by first moving all files that start with `construction-spending` into the directory `construction-data`
 7. Rename `Iris.csv` into `Iris_Classification.csv` and move it into `iris-species`
-8. Delete the `capital.json` file.
-9. Delete the `delete-me` directory.
-10. Create two new directories: `csv` and `mixed`
-11. Move the `construction-data` directory into the `mixed` directory
-12. Move the heart.csv file in `csv`
-13. Let's backup our whole directory `learning-shell` by copying it to the `~/Desktop` directory
-14. Check all of your changes using the UI
-15. Create a file (using `vi` or `nano` editors) called `a_dataset.csv` in your home directory, write a few `csv` lines in it and save it.
+8. Delete the `delete-me` directory.
+9. Check all of your changes using the file explorer 
+10. Create a file (using `vi` or `nano` editors) called `a_dataset.csv` in your home directory, write a few `csv` lines in it and save it.
 
 ### Use External Tools and Gnu Core Tools to enhance your shell skills
 * A quick view on other tools available to explore and manipulate files, the following will help us solve the most common data manipulation problems: identify csv file headers, provide file dimensions, select slices of files, split files and concatenate files
@@ -82,7 +80,7 @@
 3. Provide the shape/dimensions of the file `train.csv`?
 4. List the first 5 rows of the file. Now list the last 5.
 5. Print this file last 5 lines save the output to train_tail.csv
-6. Fetch the file `remorquages.csv` from the API as indicated [in this link](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/blob/master/class2-notebook/4-advanced_shell_commands.sh)
+6. Fetch the file `remorquages.csv` from the API as in our examples.
 7. Can you explain the command `grep John remorquages.csv | wc -l` and why would you use it?
 8. Split the train.csv file in multiple files with 20 lines each.
 
@@ -108,17 +106,7 @@
 * In order to execute a script, first make it executable by adding the x permission right to it with `chmod +x <name of script>.sh`
 * Then run it using `./<name of script>.sh`
 
-1. Write a script that suggests the data formats: csv, xlsx, pdf, doc and txt. It should allow the user to pick their desired extension then create a file named `selected.<extension selected>`. Use the `read` command to read the user input!
-2. Write a script that keeps only the first N number of lines of all files in '/Users/<myusername>/files_to_clean/*.csv'. N should be an argument passed before starting the script! If other people depend on this being done daily, how can we automate it's daily execution at 8:00AM? 
-3. Answer what does this script do:
-   ```
-   #!/bin/bash
-   for dir in 0 1 2 S
-   do
-     mkdir $dir-files
-     touch $dir-files/$dir
-   done
-   ```
+1. Write a script that keeps only the first N number of lines of all files in '/Users/<myusername>/files_to_clean/*.csv'. N should be an argument passed before starting the script! If other people depend on this being done daily, how can we automate it's daily execution at 8:00AM? 
 
 ### Scheduling commands and scripts with the crontab
 * The crontab is a command scheduler that allows us to run commands on predefined schedules
@@ -126,6 +114,9 @@
 * Uses a [crontab schedule expression](https://crontab.guru/) to describe the execution times
 * Use the commands `crontab -e` to edit and `crontab -l` to list the existing scheduled commands
 * Let's schedule our crontab to save the current date at every minute to the file dates.txt on the home directory as an example
+
+### Additional Exercises Material
+* [Extra exercises](./2-bash-exercises.md): Additional exercises to practice Git
 
 ### Final notes on Linux and Shell
 * Let's review what we've learned today
@@ -138,7 +129,7 @@
   - validation and detecting corrupted files (head, tail, md5, wc)
   - maintenance and capture using a cron scheduler (cron, curl, wget)
   - cleanup and backup (cp, rm)
-* Mastering the shell is essential if you want to engage in a Big Data Devops / Dataops career! Most tools installation, maintenance and troubleshooting will require understanding of these concepts.
+* Mastering the shell is essential if you want to engage in a Big Data Devops / DataOps career! Most tools installation, maintenance and troubleshooting will require understanding of these concepts.
 
 ### Recommended References
 * [Shell Interactive Manual](https://explainshell.com/): A web version of the man and the help of all shell commands
