@@ -65,22 +65,21 @@
 2. Download the file [random_datasets.zip](bash-git-files/random_datasets.zip)
 3. Copy it from your `~/Downloads` directory into your `learning-shell` directory
 4. Unzip it using `unzip random-datasets.zip`
-5. Look at those files contents by printing some files in your directories using `cat` or `less`
+5. Look at those files contents by printing some files in your directories using `cat` or `less`. What is the difference between the two?
 6. Lets organize this by first moving all files that start with `construction-spending` into the directory `construction-data`
 7. Rename `Iris.csv` into `Iris_Classification.csv` and move it into `iris-species`
 8. Delete the `delete-me` directory.
-9. Check all of your changes using the file explorer 
-10. Create a file (using `vi` or `nano` editors) called `a_dataset.csv` in your home directory, write a few `csv` lines in it and save it.
+9. Create a file (using `nano` or `vi` editors) called `a_dataset.csv` write a few lines in it and save it.
 
 ### Use External Tools and Gnu Core Tools to enhance your shell skills
 * A quick view on other tools available to explore and manipulate files, the following will help us solve the most common data manipulation problems: identify csv file headers, provide file dimensions, select slices of files, split files and concatenate files
 * [Gnu Core Utils](http://www.gnu.org/software/coreutils/manual/html_node/): A list of all standard shell commands present on any Unix distribution
 * Let's look at the example in code project
 
-1. Print only the lines 3 to 5 of the file?
-2. Unzip (using the terminal) our `titanic.zip` file to `titanic`, 
-3. Provide the shape/dimensions of the file `train.csv`?
-4. List the first 5 rows of the file. Now list the last 5.
+1. Unzip (using the terminal) our [titanic.zip](bash-git-files/titanic.zip), 
+2. Provide the shape/dimensions of the file `train.csv`?
+3. List the first 5 rows of the file. Now list the last 5.
+4. Print only the lines 3 to 5 of the file?
 5. Print this file last 5 lines save the output to train_tail.csv
 6. Fetch the file `remorquages.csv` from the API as in our examples.
 7. Can you explain the command `grep John remorquages.csv | wc -l` and why would you use it?
@@ -89,7 +88,7 @@
 ### Finding files and contents in files
 * Let's look at the example in code project
 
-1. Find the person called `Torborg` in the titanic file `train.csv`
+1. Find the person called `Torborg` in the [titanic](bash-git-files/titanic.zip) file `train.csv`
 2. Count how many people were male and female in the file
 3. Count how many people called `John` are in the file and how many of them are male or female
 4. Find all csv files in your home directory. Play with the `-maxdepth` flag to see the difference.
