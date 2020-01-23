@@ -38,7 +38,7 @@
 ### Be able to Navigate through the file system
 * We'll now learn the basics in order to navigate in a file system
 * root or `/` is the equivalent to `c:\` in Windows
-* Your home directory or `/home/<username>` is the equivalent to `C:\Users\<username> in Windows, and it's where you have full permissions to read and write files
+* Your home directory or `/Users/<username>` is the equivalent to `C:\Users\<username> in Windows, and it's where you have full permissions to read and write files
 
 ![](bash-git-files/fshierarchy.png)
 
@@ -92,14 +92,7 @@
 2. Count how many people were male and female in the file
 3. Count how many people called `John` are in the file and how many of them are male or female
 4. Find all csv files in your home directory. Play with the `-maxdepth` flag to see the difference.
-5. Print all the `grep` commands you did today.
-
-### Write loops to iterate over lists
-* Let's look at the example in code project
-
-1. Download the [ultratrail-du-montblanc.zip](bash-git-files/ultratrail-du-montblanc.zip) file from Slack and unzip it to `/Users/<myusername>/ultratrail`
-2. Write a loop that prints the name, dimension and first 2 lines for each of the `.csv` files.
-3. Write a loop that copies each of the `.csv` files with the prefix `bkp-` to a folder `/Users/<myusername>/ultratrail/backups`. 
+5. List all the `grep` commands you did today.
 
 ### Create scripts to automate basic processes
 * Any file containing shell commands can be executed as a shell script
@@ -107,8 +100,10 @@
 * In order to execute a script, first make it executable by adding the x permission right to it with `chmod +x <name of script>.sh`
 * Then run it using `./<name of script>.sh`
 
-1. Write a script that keeps only the first N number of lines of all files in '/Users/<myusername>/files_to_clean/*.csv'. N should be an argument passed before starting the script! If other people depend on this being done daily, how can we automate it's daily execution at 8:00AM? 
-
+1. Use the titanic files to test these scripts!
+2. Write a script that prints the name and number of lines for each of the `.csv` files in the directory /Users/<username>/to_loop/*.csv
+3. Write a script that takes the first n lines of all files in '/Users/<myusername>/to_clean/*.csv' and creates and output file with their contents. n should be a parameter provided when running the script. 
+  
 ### Scheduling commands and scripts with the crontab
 * The crontab is a command scheduler that allows us to run commands on predefined schedules
 * Its widely used for maintenance tasks, like cleaning up directories and backing up data
