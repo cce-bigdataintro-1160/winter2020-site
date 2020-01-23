@@ -23,7 +23,7 @@
   * Big Data Software will try to leverage these resources to work in a coordinated and distributed way across many "commodity hardware" nodes
   * Most of the [Big Data](https://github.com/onurakpolat/awesome-bigdata) open source software was built to run on Linux distributions only.
   * Large sets of data are hard to move: it's easier to work remotely on a Linux server with access to the data
-  * Will make more sense in the Infrastructure course, but knowing the basics will help you deal with working on Mac
+  * Will make more sense in the Infrastructure course, but knowing the basics will help you deal with working on Mac and with Docker
 * [The Linux Ancestry](https://en.wikipedia.org/wiki/Unix#/media/File:Unix_history-simple.svg): An image describing where Linux comes from
 * [Linux list of distributions](https://en.wikipedia.org/wiki/List_of_Linux_distributions): A description of existing Linux distributions. The most widely used are Ubuntu, Debian and CentOS(RedHat)
 
@@ -37,6 +37,8 @@
 
 ### Be able to Navigate through the file system
 * We'll now learn the basics in order to navigate in a file system
+* root or `/` is the equivalent to `c:\` in Windows
+* Your home directory or `/home/<username>` is the equivalent to `C:\Users\<username> in Windows, and it's where you have full permissions to read and write files
 
 ![](bash-git-files/fshierarchy.png)
 
@@ -47,7 +49,7 @@
 1. Find out what's your username. Find your home directory and list its contents.
 2. Change directory to `/` and list the contents of this directory. Why is this a special directory?
 3. Change directory to `/var/log` and list its files. What do we have here?
-4. From the previous dir `/var/log` type `cd ../../Users/<myusername>`, why is the new current directory special?
+4. From the previous dir `/var/log` type `cd ~`, check your new directory using `pwd`.
 5. Test the following commands: `cd .`, `cd ..`, `cd /` and  `cd ~`. Can you explain what each of those symbols mean?
 6. From your home directory test both commands and explain the difference: `cd Desktop` and `cd /Desktop`
 7. What command can give you the most recently modified file in your home directory? Hint, use `man ls` to find the right flags to use.
@@ -60,7 +62,7 @@
 * Let's look at the example in code project
 
 1. Create a directory called `learning-shell` in your home directory
-2. Download the file [random_datasets.zip](bash-git-files/random_datasets.zip) from Slack
+2. Download the file [random_datasets.zip](bash-git-files/random_datasets.zip)
 3. Copy it from your `~/Downloads` directory into your `learning-shell` directory
 4. Unzip it using `unzip random-datasets.zip`
 5. Look at those files contents by printing some files in your directories using `cat` or `less`
