@@ -117,7 +117,7 @@
 ### Final notes on Linux and Shell
 * Let's review what we've learned today
 * The concepts we learned today apply for pretty much any filesystem, including the ones used for Big Data like HDFS, S3, GCS and AS
-* Manipulating data in shell can save you a lot of time as those tools tend to be extremely lightweight
+* Manipulating data in shell can save you a lot of time as those tools tend to be extremely lightweight.
 * A few real life use cases for using the shell to deal with data are:
   - organization (mv, rm, cp, split)
   - exploration (wc, grep, find, ls, cat)
@@ -126,6 +126,7 @@
   - maintenance and capture using a cron scheduler (cron, curl, wget)
   - cleanup and backup (cp, rm)
 * Mastering the shell is essential if you want to engage in a Big Data Devops / DataOps career! Most tools installation, maintenance and troubleshooting will require understanding of these concepts.
+* Experience will have you quickly know when usin shell is easier/faster then using Python. Try Googling for: "how to delete files older than 30 days in linux" or "how to find largest files in linux"
 
 ### Recommended References
 * [Shell Interactive Manual](https://explainshell.com/): A web version of the man and the help of all shell commands

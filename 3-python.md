@@ -86,8 +86,8 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 3. Write a script that prints the double of all values between 4 and 8 on the list `[1,2,3,4,5,6,7,8,9]`
 4. Write a Python program that separates all values in the list `[1,2,3,4,5,6,7,8,9]` in two other lists. One resulting list should contain all even numbers and the other should contain all odd numbers.
 5. A script that prints the integers from 1 to 100. For multiples of three print "Fizz" instead , and for the multiples of five print "Buzz". For numbers which are multiples of both print "FizzBuzz"
-1. A script that receives two numbers and prints the lesser of two numbers if both numbers are odd, but prints the greater one if one or both numbers are even!
-6. Add, commit and push these scripts to the `python-notebook` repository in GitHub!
+6. A script that receives two numbers and prints the lesser of two numbers if both numbers are odd, but prints the greater one if one or both numbers are even!
+7. Add, commit and push these scripts to the `python-notebook` repository in GitHub!
 
 ### Reading files 
 * Let's now take a look of how to read a file using Python, this will be our first step towards reading datasets
