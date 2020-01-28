@@ -122,8 +122,8 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 * Let's also take a look of how to obtain files from urls and APIs
 * In Big Data, the cloud is often used as a good storage option due to its size scalability, high level of data resilience and availability
 
-1. Download the dataset `http://donnees.ville.montreal.qc.ca/dataset/5829b5b0-ea6f-476f-be94-bc2b8797769a/resource/c6f482bf-bf0f-4960-8b2f-9982c211addd/download/interventionscitoyendo.csv` to your local computer using the techniques seen in the examples.
-2. Use the pandas library to load the dataset and print its shape and information 
+1. Write a script that downloads the dataset `http://donnees.ville.montreal.qc.ca/dataset/5829b5b0-ea6f-476f-be94-bc2b8797769a/resource/c6f482bf-bf0f-4960-8b2f-9982c211addd/download/interventionscitoyendo.csv` to your local computer using the techniques seen in the examples.
+2. Write a script that download the exchange rate for usd from `https://api.exchangerate-api.com/v4/latest/USD` and cumulatively stores it in a output file. 
 
 ### Final notes on Reading and Writing Datasets with Python
 * Let's review what we've learned today
