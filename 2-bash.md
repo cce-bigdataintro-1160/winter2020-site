@@ -38,7 +38,7 @@
 ### Be able to Navigate through the file system
 * We'll now learn the basics in order to navigate in a file system
 * root or `/` is the equivalent to `c:\` in Windows
-* Your home directory or `/Users/<username>` is the equivalent to `C:\Users\<username> in Windows, and it's where you have full permissions to read and write files
+* Your home directory or `/Users/<username>` is the equivalent to `C:\Users\<username>` in Windows, and it's where you have full permissions to read and write files
 
 ![](bash-git-files/fshierarchy.png)
 
@@ -101,8 +101,8 @@
 * Then run it using `./<name of script>.sh`
 
 1. Use the titanic files to test these scripts!
-2. Write a script that prints the name and number of lines for each of the `.csv` files in the directory /Users/<username>/to_loop/*.csv
-3. Write a script that takes the first n lines of all files in '/Users/<myusername>/to_clean/*.csv' and creates and output file with their contents. n should be a parameter provided when running the script. 
+2. Write a script that prints the name and number of lines for each of the `.csv` files in the directory `/Users/<username>/to_loop/*.csv`
+3. Write a script that takes the first n lines of all files in `/Users/<myusername>/to_clean/*.csv` and creates and output file with their contents. n should be a parameter provided when running the script. 
   
 ### Scheduling commands and scripts with the crontab
 * The crontab is a command scheduler that allows us to run commands on predefined schedules
