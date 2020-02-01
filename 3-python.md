@@ -9,6 +9,8 @@
 * Fetching Files in the web and cloud
 
 ### Reviewing Python
+* Why do I need Python if we can use the shell? Let's debate this for a moment.
+
 * Python is a programming language created in 1991 with a design Philosophy emphasizing Code Readability
 * Due to its simplicity, it's always been largely used for academic purposes, but it really took off around 2011 due to its compatibility with several popular platforms like PySpark and AWS Lambda. 
 * A few characteristics from the Python language are:

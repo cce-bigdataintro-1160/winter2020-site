@@ -7,7 +7,6 @@
 * json
 * avro
 * parquet
-* orc
 
 ### What are File Formats
 * A file format is a standard way that information is encoded for storage in a computer file. It specifies how bits are used to encode information in a digital storage
@@ -32,21 +31,21 @@
 1. Open the <TBD> csv file using pandas and perform some basic exploration on the dataset.
 2. Save it in excel format and take a look at the excel file contents and size. 
 
-### xml
-* xml is a markup language defining rules for encoding documents that are both human and machine readable with a strict standard
-* written in plaintext usually encoded in utf8
-* support dtd and xsd schemas to describe and validate data in xml files, both support datatypes to be added to data 
-* is very verbose and can be very complex
-
-1. Save your previous dataset in xml format using <TBD> 
-
 ### json
 * json is a lightweight data-interchange format. It is easy for humans to read and write
 * written in plaintext usually encoded in utf8
 * uses key-value pairs and lists of values as nested data structures
 * it's one of the most common formats used for web APIs, making json data widely available 
 
-1. Save your previous dataset in json format using <TBD>
+1. Save your previous dataset in json format and take a look at the excel file contents and size.
+
+### xml
+* xml is a markup language defining rules for encoding documents that are both human and machine readable with a strict standard
+* written in plaintext usually encoded in utf8
+* support dtd and xsd schemas to describe and validate data in xml files, both support datatypes to be added to data 
+
+1. Xml was very popular in the past, take a look at the following trend chart: https://trends.google.com/trends/explore?date=today%205-y&geo=US&q=csv,json,xml,avro,parquet 
+2. Can you explain why is it that such a powerful format lost so much popularity over the recent years?
 
 ### avro
 * avro is a row-oriented data format optimized to serialize large amounts of data
@@ -54,7 +53,7 @@
 * is binary and not human readable
 * used on many apache hadoop/hive and apache kafka implementations
 
-1. Save your previous dataset in avro format using <TBD> 
+1. Save your previous dataset in avro and take a look at the excel file contents and size. 
 
 ### parquet
 * parquet is a column-oriented data format optimized to execute fast queries
@@ -62,17 +61,10 @@
 * is binary and not human readable
 * used on many apache hadoop/hive and apache spark implementations
 
-1. Save your previous dataset in parquet format using <TBD> 
-
-### orc
-* orc is a column-oriented data format optimized to execute fast queries
-* schema is embedded within the the file
-* is binary and not human readable
-* used on many apache hive implementations
-
-1. Save your previous dataset in orc format using <TBD>
+1. Save your previous dataset in parquet and take a look at the excel file contents and size. 
 
 ### Final Notes on File Formats
+* Let's take a moment to discuss the file formats above in groups
 * There's no "best" file format, each of them has its strong points and deciding on the right file format for the right use case is a very important decision in a Big Data project
 * Data exploration will benefit from human readable formats, while large scale production will benefit from optimized and compressed file formats
 * Take your environment and tooling constraints into consideration when deciding the file formats to use in a project

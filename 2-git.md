@@ -24,7 +24,7 @@
 * Git is a *distributed* versioning system created by Linus Torvalds, the creator of Linux
 * Small and lightweight
 * Free and open source
-* Has all the features mentioned above: [About Git](https://git-scm.com/about/)
+* Has all the features mentioned in the link: [About Git](https://git-scm.com/about/)
 
 ### Creating a repository and doing your first commit
 * We'll now learn how to deal with git locally
