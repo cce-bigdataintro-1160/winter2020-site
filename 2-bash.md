@@ -112,7 +112,7 @@
 * Let's schedule our crontab to save the current date at every minute to the file dates.txt on the home directory as an example
 
 ### Additional Exercises Material
-* [Extra exercises](./2-bash-exercises.md): Additional exercises to practice Git
+* [Extra exercises](./2-bash-exercises.md): Additional exercises to practice bash
 
 ### Final notes on Linux and Shell
 * Let's review what we've learned today
