@@ -31,7 +31,9 @@
   * We can use a tool called Python Shell by typing `python3` on the terminal. This will provide us with a special shell capable of running any python commands
 
 ### The Python Shell
+* Let's take a look ata few things that we can do with Python
 * Let's start the python shell in our terminals by typing `python3` and do the following steps together
+* On Windows, the python shell is easily accessible through Spyder. Otherwise, to access it through cmd you need to add the Python path to your environment variables. 
 
      ![pythonshell](./python-files/pythonshell.png)   
 
@@ -62,8 +64,8 @@
   * Create a script that should print any output.
   * There are two ways to run your scripts: type `python3 <myscript>.py` from the Terminal Panel or right click on the script and click `Run`
   
-* On a separate directory (outside `python-notebook`, clone the course code project using `git clone https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code.git`
-* Open this project in PyCharm in a separate window and let's see a few script examples
+* Now that you know how to use git clone, clone our course material in a separate directory and open it in a separate PyCharm window for reference.
+* Let's see some Python code examples
 
 1. Go back to your previous `python-notebook` project and do the following exercises:
 2. Copy the script below and run it using `python3 testing_scripts.py`:
