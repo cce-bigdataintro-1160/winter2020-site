@@ -45,4 +45,12 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 1. Write a script that can convert a string into an int and print its value and type on the console. If the value can't be converted print: `bad string {} couldn't be cast to int`, correctly formatting the message.
 
 ##### Files
-1. Open and print the titanic train.csv file. Prefix the line by `Male: ` and `Female: ` according to the gender of the person. Output the prefixed text and output the final count for each.              
+1. Open and print the titanic train.csv file. Prefix the line by `Male: ` and `Female: ` according to the gender of the person. Output the prefixed text and output the final count for each.
+
+### Fetching Files in the web and cloud
+* Let's also take a look of how to obtain files from urls and APIs
+* In Big Data, the cloud is often used as a good storage option due to its size scalability, high level of data resilience and availability
+
+1. Write a script that downloads the dataset `http://donnees.ville.montreal.qc.ca/dataset/5829b5b0-ea6f-476f-be94-bc2b8797769a/resource/c6f482bf-bf0f-4960-8b2f-9982c211addd/download/interventionscitoyendo.csv` to your local computer using the techniques seen in the examples.
+2. Write a script that download the exchange rate for usd from `https://api.exchangerate-api.com/v4/latest/USD` and cumulatively stores it in a output file. 
+              

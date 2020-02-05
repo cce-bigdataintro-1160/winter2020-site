@@ -118,13 +118,6 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 3. Write back to the same directory a "clean" version of the file
 4. Write another file containing only the "invalid" lines of the file
 
-### Fetching Files in the web and cloud
-* Let's also take a look of how to obtain files from urls and APIs
-* In Big Data, the cloud is often used as a good storage option due to its size scalability, high level of data resilience and availability
-
-1. Write a script that downloads the dataset `http://donnees.ville.montreal.qc.ca/dataset/5829b5b0-ea6f-476f-be94-bc2b8797769a/resource/c6f482bf-bf0f-4960-8b2f-9982c211addd/download/interventionscitoyendo.csv` to your local computer using the techniques seen in the examples.
-2. Write a script that download the exchange rate for usd from `https://api.exchangerate-api.com/v4/latest/USD` and cumulatively stores it in a output file. 
-
 ### Final notes on Reading and Writing Datasets with Python
 * Let's review what we've learned today
 * Today we learned three ways to execute Python code: the Python Shell, running scripts with the Python interpreter and running in PyCharm. In the future classes we'll also learn how to use Jupyter notebooks a powerful prototyping tool frequently used for Data Science 
@@ -142,6 +135,7 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 * [Python3 for beginners tutorials](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers): Several Python references for studying, all recommended for beginners
 * [Python Coding Style Guidelines](https://www.python.org/dev/peps/pep-0008/): Coding style guidelines for Python if you want to make your code look good
 * [Troubleshooting for Windows users](https://datatofish.com/add-python-to-windows-path/) who can't use the Python Shell directly from the Windows command: if you want to be able to run Python from the  Windows command line (don't mistake this with the Linux shell), you'll need to add the Python executable to your "path". 
+
 * [Public Apis](https://github.com/public-apis/public-apis): An extensive list of open and free API's for you to practice reading data from APIs
 
 [Back To Main Page](./index.md)
