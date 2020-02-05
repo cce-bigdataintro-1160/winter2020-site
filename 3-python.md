@@ -31,8 +31,8 @@
   * We can use a tool called Python Shell by typing `python3` on the terminal. This will provide us with a special shell capable of running any python commands
 
 ### The Python Shell
-* Let's take a look ata few things that we can do with Python
-* Let's start the python shell in our terminals by typing `python3` and do the following steps together
+* Let's take a look at a few Python examples in our code project
+* Now let's practice them by starting the python shell in our terminals by typing `python3` and do the following steps together
 * On Windows, the python shell is easily accessible through Spyder. Otherwise, to access it through cmd you need to add the Python path to your environment variables. 
 
      ![pythonshell](./python-files/pythonshell.png)   
@@ -55,20 +55,17 @@
 7. Given the string `'big data'` use slicing to produce the string `'g da'`
 
 ### Writing a Python script
-* Let's now look how to write Python scripts and execute them
+* Now that you know how to use git clone, clone our course material in a separate directory and open it in a separate PyCharm window for reference.
+* Let's now look how to write Python scripts and execute them in our sample project
 * A Python script can be written with any text editor, but we'll be using PyCharm, a powerful IDE to assist us
 * Let's start by creating a project `python-notebook` in GitHub and cloning it locally using `git clone <my repo url>` in the Terminal
 * Let's open PyCharm and familiarize ourselves with the tool:
-  * Create a new empty project pointing to the directory you just cloned from GitHub, this will make sure you'll be able to push your changes to GitHub later
+  * Open the directory you just cloned from GitHub, this will create a project and will make sure you'll be able to push your changes to GitHub later
   * Check the left side menu, top menu, terminal panel and version control panel
   * Create a script that should print any output.
   * There are two ways to run your scripts: type `python3 <myscript>.py` from the Terminal Panel or right click on the script and click `Run`
   
-* Now that you know how to use git clone, clone our course material in a separate directory and open it in a separate PyCharm window for reference.
-* Let's see some Python code examples
-
-1. Go back to your previous `python-notebook` project and do the following exercises:
-2. Copy the script below and run it using `python3 testing_scripts.py`:
+1. In your PyCharm project called `python-notebook`, create a file `python3 testing_scripts.py`, copy the contents below and run it:
 
 ```
 
@@ -87,18 +84,17 @@ print(mylist)
 print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, {type(mylist)}')
 ```
 
-3. Write a script that prints the double of all values between 4 and 8 on the list `[1,2,3,4,5,6,7,8,9]`
-4. Write a Python program that separates all values in the list `[1,2,3,4,5,6,7,8,9]` in two other lists. One resulting list should contain all even numbers and the other should contain all odd numbers.
+3. Write another script that prints the double of all values between 4 and 8 on the list `[1,2,3,4,5,6,7,8,9]`
+4. Write another Python program that separates all values in the list `[1,2,3,4,5,6,7,8,9]` in two other lists. One resulting list should contain all even numbers and the other should contain all odd numbers.
 5. A script that prints the integers from 1 to 100. For multiples of three print "Fizz" instead , and for the multiples of five print "Buzz". For numbers which are multiples of both print "FizzBuzz"
-6. A script that receives two numbers and prints the lesser of two numbers if both numbers are odd, but prints the greater one if one or both numbers are even!
-7. Add, commit and push these scripts to the `python-notebook` repository in GitHub!
+6. Add, commit and push these scripts to the `python-notebook` repository in GitHub!
 
 ### Reading files 
 * Let's now take a look of how to read a file using Python, this will be our first step towards reading datasets
 * Let's see a few script examples together
 
 1. In `python-notebook` project do the following exercise:
-2. Copy the boston housing dataset file in your project
+2. Copy the [boston housing dataset](python-files/housing.data) file in your project
 3. Create a script called `my_csv_reader.py`
 4. Check if the boston housing dataset file path is really a file. If it is print `I have a file to process`, otherwise print `Boo, no file for me.`
 5. Read the boston housing dataset file 
