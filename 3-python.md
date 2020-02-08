@@ -49,6 +49,7 @@
 
 2. Use the command `help(str)`. What does the built-in help() method does?
 3. Use the command `dir(str)`. What does the built-in dir() method does?
+3. Test the following inputs in Python shell: `'abc'`, `'ABC'`, `'ABC'.lower()` and `help('ABC'.lower())`
 4. Write an equation that uses multiplication, subtraction and an addition that is equal to 42.5. 
 5. Assign the result to the variable `result`. Ex: `result = <my equation formula>` 
 6. Print your variable using `print(result)`
