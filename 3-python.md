@@ -9,7 +9,10 @@
 * Fetching Files in the web and cloud
 
 ### Reviewing Python
-* Why do I need Python if we can use the shell? Let's debate this for a moment.
+* Why do I need Python if we can use the shell? Let's debate this for a moment on a few use cases:
+  * You need to ingest marketing data from an API to the file system every day at 4AM. This data has to be organized by date and only accessible by authorized staff. 
+  * Some of the data we recently ingested is crashing the data processing applications. The data is written in json files on the file system and you need to identify what's wrong.   
+  * Querying massive amounts of data stored in a distributed NoSQL database, you need to generate Machine Learning models and server them through an API.
 
 * Python is a programming language created in 1991 with a design Philosophy emphasizing Code Readability
 * Due to its simplicity, it's always been largely used for academic purposes, but it really took off around 2011 due to its compatibility with several popular platforms like PySpark and AWS Lambda. 
