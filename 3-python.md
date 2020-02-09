@@ -115,14 +115,6 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
    ```
 8. Add, commit and push this script to the `python-notebook` repository in GitHub!
 
-### Writing Files
-* Let's now take a look of how to write a file using Python
-
-1. Write a script capable of reading all the lines of a csv file
-2. It should then validate that each line has the same number of values as the header, any lines with a different number of values as the headers should be saved in a separate list
-3. Write back to the same directory a "clean" version of the file
-4. Write another file containing only the "invalid" lines of the file
-
 ### Final notes on Reading and Writing Datasets with Python
 * Let's review what we've learned today
 * Today we learned three ways to execute Python code: the Python Shell, running scripts with the Python interpreter and running in PyCharm. In the future classes we'll also learn how to use Jupyter notebooks a powerful prototyping tool frequently used for Data Science 

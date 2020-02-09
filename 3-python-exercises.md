@@ -53,4 +53,11 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 1. Write a script that downloads the dataset `http://donnees.ville.montreal.qc.ca/dataset/5829b5b0-ea6f-476f-be94-bc2b8797769a/resource/c6f482bf-bf0f-4960-8b2f-9982c211addd/download/interventionscitoyendo.csv` to your local computer using the techniques seen in the examples.
 2. Write a script that download the exchange rate for usd from `https://api.exchangerate-api.com/v4/latest/USD` and cumulatively stores it in a output file. 
-              
+
+### Writing Files
+* Let's now take a look of how to write a file using Python
+
+1. Write a script capable of reading all the lines of a csv file
+2. It should then validate that each line has the same number of values as the header, any lines with a different number of values as the headers should be saved in a separate list
+3. Write back to the same directory a "clean" version of the file
+4. Write another file containing only the "invalid" lines of the file              
