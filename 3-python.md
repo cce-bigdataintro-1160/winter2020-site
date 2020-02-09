@@ -127,7 +127,6 @@ print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, 
 
 ### Recommended Readings
 * [Software Carpentry Python Lesson](http://swcarpentry.github.io/python-novice-inflammation/index.html): Software Carpentry Lesson on Python basics for data manipulation (Modules)
-* [Python Basics Reference](https://pythonbasics.org/): Python basics simplified syntax for using Python basics
 * [Python3 Reference](https://docs.python.org/3/library/index.html):  Python3 reference pages containing all base types
 * [Python3 for beginners tutorials](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers): Several Python references for studying, all recommended for beginners
 * [Python Coding Style Guidelines](https://www.python.org/dev/peps/pep-0008/): Coding style guidelines for Python if you want to make your code look good
