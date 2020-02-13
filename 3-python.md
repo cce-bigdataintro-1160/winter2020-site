@@ -89,7 +89,7 @@ print(mylist)
 print(f'{type(mynumber)}, {type(myfloat)}, {type(mystring)}, {type(myboolean)}, {type(mylist)}')
 ```
 
-3. Write another script that prints the double of all values between 4 and 8 on the list `[1,2,3,4,5,6,7,8,9]`
+3. Write another script that prints the double of all values between 4 and 8(exclusive) on the list `[1,2,3,4,5,6,7,8,9]`
 4. Write another Python script that separates all values in the list `[1,2,3,4,5,6,7,8,9]` in two other lists. One resulting list should contain all even numbers and the other should contain all odd numbers.
 5. A script that prints the integers from 1 to 100. For multiples of three print "Fizz" instead , and for the multiples of five print "Buzz". For numbers which are multiples of both print "FizzBuzz"
 6. Add, commit and push these 4 scripts to the `python-notebook` repository in GitHub!
