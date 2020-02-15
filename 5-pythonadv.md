@@ -50,7 +50,7 @@
 * Let's take a look together at pandas in the CEBD-1160-code project
 
 1. In `pandas-notebook` project do the following exercise in pairs
-2. Load the `insurance.csv` in a DataFrame using pandas. Explore the dataset using functions like `to_string()`, `columns`, `index`, `dtypes`, `shape`, `info()` and `describe()`. Use this DataFrame for the following exercises.
+2. Load the [insurance.csv](python-files/insurance.csv) in a DataFrame using pandas. Explore the dataset using functions like `to_string()`, `columns`, `index`, `dtypes`, `shape`, `info()` and `describe()`. Use this DataFrame for the following exercises.
 3. Print only the column `age`
 4. Print only the columns `age`,`children` and `charges`
 5. Print only the first 5 lines and only the columns `age`,`children` and `charges`
@@ -72,7 +72,7 @@
 * Allows users to save figures in high resolution for printing and supports many different formats
 * Let's take a look together at matplotlib in the CEBD-1160-code project
 
-1. Still using the same DataFrame from the previous exercise `insurance.csv` plot the chart for `charges` and save it as `charges_plot.png`
+1. Still using the same DataFrame from the previous exercise [insurance.csv](python-files/insurance.csv) plot the chart for `charges` and save it as `charges_plot.png`
 2. plot the histogram for `bmi` and save it as `bmi_hist.png`
 3. plot the scatterplot for `age` vs `charges` and save it as `age_charge_scatter.png`
 4. Re-do the previous items, adding the title, x label and y label for each item.
