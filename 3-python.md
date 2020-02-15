@@ -63,7 +63,7 @@
 * Now that you know how to use git clone, clone our course material in a separate directory and open it in a separate PyCharm window for reference.
 * Let's now look how to write Python scripts and execute them in our sample project
 * A Python script can be written with any text editor, but we'll be using PyCharm, a powerful IDE to assist us
-* Let's start by creating a project `python-notebook` in GitHub and cloning it locally using `git clone <my repo url>` in the Terminal
+* Let's start by creating a repository `python-notebook` in GitHub and cloning it locally using `git clone <my repo url>` in the Terminal
 * Let's open PyCharm and familiarize ourselves with the tool:
   * Open the directory you just cloned from GitHub, this will create a project and will make sure you'll be able to push your changes to GitHub later
   * Check the left side menu, top menu, terminal panel and version control panel
