@@ -31,3 +31,8 @@ def categorize_gender(row):
 3. Iterate over each row of the file applying your function
 4. Add the result of your function call to each row of the dataset, producing a new list
 5. Print your new list with an extra field
+
+### Optional homework(no need to submit)
+* Reserch the following matplotlib types of plots: `bar` and `pie`
+* Research the library `seaborn`, another plotting library based on `matplotlib`
+* Research the library `plotly`, another plotting library widely used for data analysis

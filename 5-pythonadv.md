@@ -76,7 +76,7 @@
 2. plot the histogram for `bmi` and save it as `bmi_hist.png`
 3. plot the scatterplot for `age` vs `charges` and save it as `age_charge_scatter.png`
 4. Re-do the previous items, adding the title, x label and y label for each item.
-5. Plot other data facts that might interest you. Do the plots match what we saw with the correlation function?
+5. Think about the exercise 12 from the previous section. Do the plots match what we saw with the correlation function?
 
 ### Final Notes on Python Libraries
 * These utilities are widely used in the industry and represent some of the most essential building blocks for data analysis
@@ -87,11 +87,6 @@
 
 ### Additional Exercises Material
 * [Extra exercises](./5-pythonadv-exercises.md): Additional exercises to practice
-
-### Optional homework(no need to submit)
-* Reserch the following matplotlib types of plots: `bar` and `pie`
-* Research the library `seaborn`, another plotting library based on `matplotlib`
-* Research the library `plotly`, another plotting library widely used for data analysis
 
 ### Recommended Readings
 * [Importing Libraries](https://docs.python.org/3/tutorial/modules.html#importing-from-a-package): How to import python existing libraries
