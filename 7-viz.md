@@ -22,7 +22,7 @@
   * Explore datasets through plots
   * Add multiple plots to the same subplot(ax)
 
-1. Using the Boston [housing.data](viz-files/boston/housing.data) dataset, use `plt.show()` to plot one chart of each type:
+1. Using the Boston [housing.data](viz-files/boston/housing.data) dataset, plot one chart of each type:
   - line `plot` passing one column(feature)
   - `scatter` plot passing two columns(features)
 2. Make sure to add a `title`, `xlabel` and `ylabel` on each of the previous plots
