@@ -73,6 +73,9 @@
 
 ### Final Notes on Python Data Visualization
 * All the concepts we're learning today can be applied to a multitude of tools for data visualization, that might differ in features and capabilities but where the basic concepts will be always the same!
+  * Data Scientist: matplotlib, seaborn, plotly, Tableau
+  * Web Developer: D3, plotly
+  * Business Analyst: Tableau, Power BI
 * One important aspect is realize the power of mastering the programatic generation of plots. One can write a generic plotter that can receive many different types of datasets and produce those many plots automatically.
 * Other aspects that can be configured programatically are automation, frequency, scheduling among other customizations
 * Producing plots with python allows for access to data that could be otherwise difficult to read (databases, apis, shared directories, etc). Using python also makes it easy to make those plots available through: email, webpages, saved files on shared disks, etc
