@@ -14,7 +14,7 @@
 * We can generate grids with multiple plots and arrange the layout in different ways
 * Matplotlib supports displaying images with the `show()` command, saving them to files with `savefig()` or displaying them automatically on Jupyter notebooks
 * The words columns, features and dimensions will be used interchangeably and mean the same thing!!!
-* Let's look at some [examples](https://github.com/cce-bigdataintro-1160/spring2019/tree/master/class6-notebook) in order to learn how to:
+* Let's look at some examples in order to learn how to:
   * Create plots
   * Create figures and subplots (axes)
   * Save figures to files
@@ -22,11 +22,12 @@
   * Explore datasets through plots
   * Add multiple plots to the same subplot(ax)
 
-1. Using the Boston [housing.data](viz-files/boston/housing.data) dataset, plot one chart of each type:
+1. Using the Boston [housing.data](viz-files/boston/housing.data) dataset and the syntax `fig, axes = plt.subplots(2, 1, figsize=(8,8))`, plot one chart of each type:
   - line `plot` passing one column(feature)
   - `scatter` plot passing two columns(features)
+  - put the the 2 plots above on the same figure
 2. Make sure to add a `title`, `xlabel` and `ylabel` on each of the previous plots
-3. Put the the 2 plots above on the same figure and save it on a single file
+3. Save it on a single file
 4. You don't need to use multiple charts per figure anymore, just one is fine. Keep your `scatter` plot from the previous exercise and play with at least 2 of the `color`, `marker` and `alpha` parameters
 5. Use one more feature(column) to play with the `s`(size) parameter of a `scatter` plot. 
 * In order to do it first set it to a fixed value, like `s=10`. 
