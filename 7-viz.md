@@ -79,8 +79,8 @@
   * Business Analyst: Tableau, Power BI
 * One important aspect is realize the power of mastering the programatic generation of plots. One can write a generic plotter that can receive many different types of datasets and produce those many plots automatically.
 * Other aspects that can be configured programatically are automation, frequency, scheduling among other customizations
-* Producing plots with python allows for access to data that could be otherwise difficult to read (databases, apis, shared directories, etc). Using python also makes it easy to make those plots available through: email, webpages, saved files on shared disks, etc
-* The scale of data python can process is much higher than that of regular "office tools" making it able to process datasets that couldn't be handled otherwise. Notice that depending on the amount of data some techniques would still be required to "bucket" or "stream" the data.
+* Producing plots with python allows for access to data that could be otherwise difficult to read (databases, apis, shared directories, etc). Using python also makes it easy to make those plots available through: webpages, saved files on shared disks, etc
+* Using Python will also allow you to plot images with a lot more data then tools like Excel 
 
 ### Optional homework(no need to submit)
 * Read the machine learning introduction in: [this link](http://scipy-lectures.org/packages/scikit-learn/index.html#introduction-problem-settings), in particular, sections `3.6.1` to `3.6.5`. Don’t worry if this is a bit complex right now - it’ll really vary based on your math background.
