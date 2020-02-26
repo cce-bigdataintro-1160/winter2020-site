@@ -28,7 +28,9 @@
   - put the the 2 plots above on the same figure
 2. Make sure to add a `title`, `xlabel` and `ylabel` on each of the previous plots
 3. Save it on a single file
-4. You don't need to use multiple charts per figure anymore, just one is fine. Keep your `scatter` plot from the previous exercise and play with at least 2 of the `color`, `marker` and `alpha` parameters
+4. You don't need to use multiple charts per figure anymore, just one is fine. 
+  - Keep your `scatter` plot from the previous exercise and play with at least 2 of the `color`, `marker` and `alpha` parameters
+  - Switch the variables being used and choose the ones that tell you the most interesting information. Why did you choose it?
 5. Use one more feature(column) to play with the `s`(size) parameter of a `scatter` plot. 
 * In order to do it first set it to a fixed value, like `s=10`. 
 * Now try to set it to the value of another column of your dataset, like `s=df['<other column>']`. 
