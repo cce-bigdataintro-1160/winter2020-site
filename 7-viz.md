@@ -84,9 +84,6 @@
 * Producing plots with python allows for access to data that could be otherwise difficult to read (databases, apis, shared directories, etc). Using python also makes it easy to make those plots available through: webpages, saved files on shared disks, etc
 * Using Python will also allow you to plot images with a lot more data then tools like Excel 
 
-### Optional homework(no need to submit)
-* Read the machine learning introduction in: [this link](http://scipy-lectures.org/packages/scikit-learn/index.html#introduction-problem-settings), in particular, sections `3.6.1` to `3.6.5`. Don’t worry if this is a bit complex right now - it’ll really vary based on your math background.
-
 ### Recommended Readings
 * [matplotlib Galleries](https://matplotlib.org/gallery/index.html): matplotlib Gallery with many plots to use for reference
 * [matplotlib stylesheets](https://matplotlib.org/gallery/style_sheets/style_sheets_reference.html): List of all stylesheets available in matplotlib
