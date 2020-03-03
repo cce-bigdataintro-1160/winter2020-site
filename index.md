@@ -22,7 +22,7 @@
 7. [Python Machine Learning](./8-ml.md)
 8. [Data Preparation](./9-data-preparation.md)
 9. [Containerization & Shipping Software](./4-docker.md)
-10. [Project](./10-project.md)
+10. [Project](./11-project.md)
 
 ## Evaluation
 * Project (40%)
