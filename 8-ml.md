@@ -145,13 +145,17 @@
 * This allows for later [serving](https://towardsdatascience.com/a-flask-api-for-serving-scikit-learn-models-c8bcdaa41daa) the model on a api!
 
 ### Recommended Readings
-* [What is machine learning](https://scikit-learn.org/stable/tutorial/basic/tutorial.html#machine-learning-the-problem-setting)
 * [ML Glossary](https://developers.google.com/machine-learning/glossary/): A very extensive glossary for Machine Learning Concepts
+
+* [Machine learning](https://www.coursera.org/learn/machine-learning): A course to look behind the algorithms
+* [An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/): Excellent book on the math behind Machine Learning
+
 * [sklearn tutorials](https://scikit-learn.org/stable/tutorial/index.html): Many sklearn tutorials including how to work with textual data and some video resources
 * [Free Machine Learning Books](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md): Extensive list of free ML books
-* [An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/): Excellent book on the math behind Machine Learning
-* [Stanrdadization and scaling](https://scikit-learn.org/stable/modules/preprocessing.html#standardization-or-mean-removal-and-variance-scaling): Guide on standardization and normalization
+
+* [Standardization and scaling](https://scikit-learn.org/stable/modules/preprocessing.html#standardization-or-mean-removal-and-variance-scaling): Guide on standardization and normalization
 * [Scalers Comparison](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html): Comparison between multiple different scaling methods
+
 * [Exposing models on API](https://towardsdatascience.com/a-flask-api-for-serving-scikit-learn-models-c8bcdaa41daa): A short tutorial showing how to present and re-use models using python's Flask framework
 
 [Back To Main Page](./index.md)
