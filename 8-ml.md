@@ -14,7 +14,7 @@
 * Machine learning is an Artificial Inteligence subfield, that focuses on the study of algorithms that can create models to predict or group data by inferring information from existing data
 * It's about building programs with tunable parameters that are adjusted automatically so as to improve their behavior by adapting to previously seen data, in contrast to regular programs where the programmer has to explicitly write every single instruction.
 
-1. In groups of two, take ten minutes to research 1 example of each of the following category of ML problems: Supervised Classification, Supervised Regression and Unsupervised Learning
+1. In groups of two, take five minutes to research 1 example of each of the following category of ML problems: Supervised Classification, Supervised Regression and Unsupervised Learning
 2. Can you convert a regression problem into a classification problem? When would that be interesting?
 
 * We'll be focusing on Supervised Learning, in particular regression and classification problems
