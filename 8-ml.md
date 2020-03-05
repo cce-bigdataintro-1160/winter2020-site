@@ -19,7 +19,7 @@
 
 * We'll be focusing on Supervised Learning, in particular regression and classification problems
 
-* Some important glossary:
+* Let's fill out on the board:
   * X is a matrix where each row represents a sample (a.k.a. instance, record) and each column represents a feature (a.k.a. dimension, attribute, independent variable)
   * y: is a vector containing our variable to be predicted, also called target, label or dependent variable
   * estimator: is an object that can train a ML model after a mathematical algorithm
