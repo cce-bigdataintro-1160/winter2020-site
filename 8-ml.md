@@ -148,7 +148,7 @@
 ### Recommended Readings
 * [ML Glossary](https://developers.google.com/machine-learning/glossary/): A very extensive glossary for Machine Learning Concepts
 
-* [Machine learning](https://www.coursera.org/learn/machine-learning): A course to look behind the algorithms
+* [Machine learning Mathematical algorithms](https://www.coursera.org/learn/machine-learning): A course to learn more and look behind the math of ML
 * [An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/): Excellent book on the math behind Machine Learning
 
 * [sklearn tutorials](https://scikit-learn.org/stable/tutorial/index.html): Many sklearn tutorials including how to work with textual data and some video resources
