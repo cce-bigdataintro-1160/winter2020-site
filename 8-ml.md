@@ -48,16 +48,17 @@
 * Too small datasets can lead to biases and consequently invalid prediction models
 * For the class and project we'll now [load our data straight from sklearn sample datasets](http://scipy-lectures.org/packages/scikit-learn/index.html#loading-the-iris-data-with-scikit-learn), as that data has been already prepared for running ml algorithms 
 
-1. Load your chosen dataset using the the sklearn dataset load methods. Now print the loaded dataset `keys()`, `data.shape`, `target.shape` and `feature_names`
-2. Assign the `data` to a variable named X representing our samples
-3. Assign the `target` to a variable named y representing our targets
+1. For this exercise we'll use one of the following datasets: boston, cancer, diabetes, wine or iris 
+2. Load your chosen dataset using the the sklearn dataset load methods. Now print the loaded dataset `keys()`, `data.shape`, `target.shape` and `feature_names`
+3. Assign the `data` to a variable named X representing our samples
+4. Assign the `target` to a variable named y representing our targets
 
 ### Preparing the data
-* Data preparation and cleaning can be one of the most time consuming part of a ML process
 * The first step is to visualize and make sure that you have a conceptual understanding of what each column represents towards your final objective. All tools we learned in the last classes are essential in this step: 
   * pandas DataFrames summaries, statistics and correlation
   * plotting datasets techniques
-
+  
+* After a preliminary data exploration, preparation and cleaning are the most time consuming part of a ML process
 * The next steps involves data manipulation operations to minimize noise and prepare the dataset for sklearn, that uses only numerical features: 
   * dealing with missing data: dropping or filling values
   * transforming/encoding textual data with numerical values
