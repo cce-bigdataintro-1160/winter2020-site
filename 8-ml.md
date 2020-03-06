@@ -11,18 +11,17 @@
 * Final Notes on Machine Learning
 
 ### Machine Learning Concepts
-* Machine learning is an Artificial Inteligence subfield, that focuses on the study of algorithms that can create models to predict or group data by inferring information from existing data
-* It's about building programs with tunable parameters that are adjusted automatically so as to improve their behavior by adapting to previously seen data, in contrast to regular programs where the programmer has to explicitly write every single instruction.
+* Machine learning is an Artificial Inteligence subfield, that focuses on the study of algorithms that can create models to infer new information from existing data
+* It's about building programs that use mathematical algorithms capable of generating and optimizing prediction models
+* Try to picture the contrast to regular programs where the programmer has to explicitly write every single instruction 
 
-1. In groups of two, take five minutes to research 1 example of each of the following category of ML problems: Supervised Classification, Supervised Regression and Unsupervised Learning
+1. In groups of two, take five minutes to research 1 example of each of the following category of ML problems: Supervised Regression, Supervised Classification 
 2. Can you convert a regression problem into a classification problem? When would that be interesting?
-
-* We'll be focusing on Supervised Learning, in particular regression and classification problems
 
 * Let's fill out on the board:
   * X is a matrix where each row represents a sample (a.k.a. instance, record) and each column represents a feature (a.k.a. dimension, attribute, independent variable)
-  * y: is a vector containing our variable to be predicted, also called target, label or dependent variable
-  * estimator: is an object that can train a ML model after a mathematical algorithm
+  * y: is a list containing the values we want to learn to predict, also called target, label or dependent variable
+  * estimator: is an python object that can train a ML model after a mathematical algorithm
   * model: is the predictor function created by the estimator
   * Accuracy: percentage of correct predictions the generated model can make
   * Error: the sum of the errors made for each example in training or validation sets. Unlike accuracy, loss is not a percentage.
@@ -32,20 +31,18 @@
 
 ### scikit-learn
 * [sklearn tutorial](http://scipy-lectures.org/packages/scikit-learn/index.html#introduction-problem-settings): tutorial showing how to use python and sklearn to solve ML problems
-* [sci-kit learn testimonials](https://scikit-learn.org/stable/testimonials/testimonials.html): Non-exhaustive list of companies using sci kit learn
 
-* The scikit-learn project started as scikits.learn, a Google Summer of Code project, now under active community development. It's widely used as one of the simplest and most effective tools to practice Machine Learning
+* It's widely used as one of the simplest and most effective tools to practice Machine Learning
 * It's based on numpy and pandas, making it easy to use and compatible with matplotlib and seaborn. Between it's advantages it's based on fairly high level concepts with an easy to use interface
 * sklearn has [estimators](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) that expose a standardized interface for each ML algorithm
-* Handles most modern ML algorithms, except Deep Learning, where Tensor Flow, Keras and PyTorch take place
+* Handles most modern estatistical learning algorithms, but doesn't cover Deep Learning(done by Tensor Flow, Keras and PyTorch)
 
 ### Acquiring and loading data
-* [Loading External Datasets](https://scikit-learn.org/stable/datasets/index.html#external-datasets): sklearn recommended ways to load datasets
-
-* Generally, scikit-learn works on any numeric data stored as numpy arrays or scipy sparse matrices. Other types that are convertible to numeric arrays such as pandas DataFrame are also acceptable
-* Using one of the many pandas read methods is a great start: 'read_csv', 'read_excel', 'read_html', 'read_json', 'read_parquet', 'read_sql', 'read_sql_query', 'read_sql_table' and 'read_table'. Besides these there are other libs capable of loading virtually any type of data!
-* Data has to be large enough to allow algorithms to converge, but handling large volumes of data can be cumbersome. Ideal size is on a case-by-case basis, but should be as little as necessary.
-* Too small datasets can lead to biases and consequently invalid prediction models
+* Generally, scikit-learn works on any numeric data stored as numpy arrays . Other types that are convertible to numeric arrays such as pandas DataFrame are also acceptable
+* Using one of the many pandas read methods is a great start: 'read_csv', 'read_html', 'read_json'
+ * Too small datasets can lead to biases and consequently invalid prediction models
+* Data has to be large enough to allow algorithms to converge, but handling large volumes of data can be cumbersome.
+* Ideal size is on a case-by-case basis, but should be as little as necessary.
 * For the class and project we'll now [load our data straight from sklearn sample datasets](http://scipy-lectures.org/packages/scikit-learn/index.html#loading-the-iris-data-with-scikit-learn), as that data has been already prepared for running ml algorithms 
 
 1. For this exercise we'll use one of the following datasets: boston, cancer, diabetes, wine or iris 
@@ -54,28 +51,22 @@
 4. Assign the `target` to a variable named y representing our targets
 
 ### Preparing the data
-* The first step is to visualize and make sure that you have a conceptual understanding of what each column represents towards your final objective. All tools we learned in the last classes are essential in this step: 
-  * pandas DataFrames summaries, statistics and correlation
-  * plotting datasets techniques
-  
-* After a preliminary data exploration, preparation and cleaning are the most time consuming part of a ML process
-* The next steps involves data manipulation operations to minimize noise and prepare the dataset for sklearn, that uses only numerical features: 
+* After the data exploration phase, preparation and cleaning are the most time consuming part of a ML process
+* It involves data manipulation operations to minimize noise and prepare the dataset for sklearn, that uses only numerical features: 
   * dealing with missing data: dropping or filling values
   * transforming/encoding textual data with numerical values
   * encoding categorical features with dummy variables
   * feature selection/drop features: removing features manually or with an algorithm
+  * For now let's focus on the machine learning part
 
 * Machine Leaning algorithms will require a `training dataset` to create the model and a `test dataset` to validate the resulting model. 
-  * Supervised algorithms require that each dataset is divided in to an X matrix(features) and a y array (labels)
-  * Unsupervised algorithms only require the X matrix(features)
 
-* We'll use sklearn `model_selection.train_test_split` method to split the datasets, with a test dataset size between 30%-40% (common range for smaller sets)
+* We'll use sklearn `model_selection.train_test_split` method to randomly split the datasets, with a test dataset size between 30%-40% (common range for smaller sets)
 
 1. For your chosen dataset, create the train and test splits. Print the shape of the full initial dataset and then the shape of each of the 4 split datasets `X_train, X_test, y_train, y_test`
 
 ### Supervised Learning: Linear Regression - for Regression problems
 * [Linear regression, or least squares method](http://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_linear_regression.html#a-simple-linear-regression) is a supervised ML [estimator/algorithm](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) from sklearn meant to predict continuous features
-* We'll use labelled data to try to predict unlabelled data values using known feature values 
 * The simplest form of Linear Regression can be defined by the formula `Y = a + bX` whereas the Least Squares algorithm is applied until an optimal fit is found
 ![](ml-files/linear-regression.png?raw=true)
 * Let's look at some [examples](https://github.com/cce-bigdataintro-1160/spring2019/tree/master/class7-notebook) in order to create a model to predict data
@@ -94,7 +85,6 @@
 ### Logistic Regression - for Classification problems
 * [Logistic regression](http://scipy-lectures.org/packages/scikit-learn/auto_examples/plot_iris_knn.html) is a supervised ML [estimator/algorithm](http://scipy-lectures.org/packages/scikit-learn/index.html#a-recap-on-scikit-learn-s-estimator-interface) from sklearn meant to predict categorical features
 * Because Linear Regression is unsuitable to predict the probability of a target, Logistic Regression adds [Sigmoid/Logistic](https://en.wikipedia.org/wiki/Sigmoid_function) function over the linear regression, limiting the result in a probability score from 0 to 1 
-* We'll use labelled data to try to predict unlabelled data class/categories using known feature values
 * On multiclass linear regression, the class with the highest probability "wins"
 ![](ml-files/logistic-regression.png?raw=true)
 * Let's look at some [examples](https://github.com/cce-bigdataintro-1160/spring2019/tree/master/class7-notebook) in order to create a model to predict data
