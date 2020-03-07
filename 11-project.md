@@ -23,7 +23,7 @@
 
   * How should I present my final project?
     
-    Sky is the limit! You'll have 5-10 minutes to present to everyone in the class your data project. You can use the readme.md GitHub page, a power point presentation or whatever means you prefer (that you know is installed in class)
+    Sky is the limit! You'll have ~5-10 minutes to present to everyone in the class your data project. You can use the readme.md GitHub page, a power point presentation or whatever means you prefer (that you know is installed in class)
 
   * Can I change the csv dataset instead of the sklearn one?
     
@@ -37,13 +37,9 @@
     
     Look at the raw version of it [here](https://raw.githubusercontent.com/cce-bigdataintro-1160/cebd1160_project_template/gkexample/README.md)!!!
 
-  * How long should my presentation be?
-    
-    5-10 minutes!    
-
   * Is there a specific algorithm I should use?
     
-    You can use as many algorithms as you want and compare their results. Besides don't hesitate to try to optimize your score using feature selection or any other techniques you might find interesting!
+    You can use as many algorithms as you want and you can compare their results. You can try to optimize your score using feature selection or any other techniques you might find interesting!
 
   * I'm really stuck! I don't know exactly if my question is good or how to solve it...
     
@@ -56,11 +52,10 @@
     * challenge your own results and question with other data (maybe even external data)
 
   * How will the grade be calculated:
-    * 10% Dockerfile	
     * 20% Visualization Code	
     * 20% Data Exploration Code	
     * 15% Machine Learning Code	
-    * 10% ReadMe Description	
+    * 20% ReadMe Description	
     * 25% In Class Presentation
     
 [Back To Main Page](./index.md)
