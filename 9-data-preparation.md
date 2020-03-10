@@ -11,7 +11,6 @@
 Goal for today will be to review everything we learned so far, play with data preparation and kickoff the final project development!
 
 ### Pandas DataFrames manipulation, cleanup and preparation
-* A review of what we've [seen](https://github.com/cce-bigdataintro-1160/CEBD-1160-fall-2019-code/tree/master/4-python-advanced-notebook)
 * Let's check a few new DataFrame operations:
   * Concatenating DataFrames
   * Renaming columns
@@ -25,17 +24,6 @@ Goal for today will be to review everything we learned so far, play with data pr
   * Producing numerical data from textual data
   * Dropping columns with small impact or that add 'noise' (not really correlated)
 * This way we should have only numerical values for sklearn
-
-### Introduction to Jupyter Notebooks
-* [Jupyter Notebooks](https://jupyter.org/) is a web application that allows you to write documents that can contain Python code
-* These documents can be executed by parts, which can make data exploration much easier to organize
-* It can be used to facilitate all the steps we performed in PyCharm before, but in an interactive way
-* In many companies, you'll have a central server hosting the [Jupyter Hub](https://jupyter.org/hub) application
-* You can install Jupyter locally for development purposes, either instaling it from its website or with the [Anaconda](https://www.anaconda.com/) platform
-* Using the `%matplotlib inline` directive, all plots will be immediatelly plotted in Jupyter!   
-* Let's re-do some of our examples using a Jupyter Notebook now.
-
-1. What are activities are easier to do in Jupyter using notebooks? What activities are easier to do in PyCharm using scripts? 
 
 ### Where do I go from here?
 * Well, this will depend a lot on where do you want to go :)
@@ -56,9 +44,7 @@ Goal for today will be to review everything we learned so far, play with data pr
 * Don't hesitate to consult the material from previous classes to do the exercise!
 
 ### About 
-* [How to show you master bigdata](https://pixelastic.github.io/pokemonorbigdata/)
-* [Database Ranking](https://db-engines.com/en/ranking)
 * [A ton of big data related technologies](https://github.com/onurakpolat/awesome-bigdata)
-* [Draft for professsions](./10-professions.md)
+* [How to show you truly master bigdata](https://pixelastic.github.io/pokemonorbigdata/)
 
 [Back To Main Page](./index.md)
