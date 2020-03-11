@@ -16,4 +16,4 @@
 6. Check the correlation of the variables in your dataset!
 7. Plot everything you need in order to understand this dataset and its correlations. You can use all the techniques we learned in the previous classes. Make sure to do plots with 2+ dimensions at the same time.
 8. Finally, choose a variable to be used as target and run your classification or regression.
-9. Check if your score is acceptable and try to optimize by chainging your algorithm, hyperparameters, data split or selecting your features!
+9. Check if your score is acceptable and try to optimize by changing your algorithm, hyperparameters, data split or selecting your features!

@@ -3,7 +3,6 @@
 ### Agenda
 * Pandas DataFrames manipulation, cleanup and preparation
 * Data cleanup and preparation for sklearn
-* Introduction to Jupyter Notebooks
 * Where do I go from here?
 * Final Project
 
