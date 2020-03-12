@@ -7,21 +7,19 @@
 ### Introducing conteinerization
 * Conteinerization has been one of the most important software operations movement in the past 5 years
 * Consists of packaging a process and its dependencies, allowing it to run uniformly and consistently on any infrastructure because the process carries its own environment description with it
-* A container is a process running in isolation from host os and other containers
-* Its a lightweight alternative to traditional virtualization, because it can share the kernel and other layers with the host and other containers
+* A container is a process running in isolation from host os and other containers, a lightweight alternative to traditional virtualization, because it can share the kernel and other layers with the host and other containers
 
      ![](./docker-files/Container.png)
      
-* Its main goal is to lower friction and costs in migrations that used to be extremely long and costly
+* Its main goal is to lower friction and costs in migrations that used to be extremely long and costly 
   - Mainframes
   - Baremetal Datacenters
   - VMs
   - Cloud
   - Dev, Testing and Production environments (mitigates the infamous "it runs on my machine" problem)
-* A container usually will contain code, runtime, system tools, system libraries and settings
+* A container usually will contain code, execution engine, system tools, system libraries and settings
 * There are short lived and long running Docker processes  
 * We can operate docker containers using the docker CLI, let's take a look at the most used commands
-* Docker is a platform with multiple parts as we can see below
 
      ![](./docker-files/engine-components-flow.png)
 
@@ -37,7 +35,6 @@
 10. Is `hello-world` a 'long running' process or a 'short lived' process?
 
 ### Creating your own Images and modifying existing Images
-* [Dockerfile description](https://docker-curriculum.com/#dockerfile): Basics on writing a Dockerfile
 * In order to create our own images we have to add a new file to our project: the Dockerfile. We'll need to use the `docker build` command in order to build an image from a Dockerfile
 * We can build upon any existing image, meaning any official image can be extended and customized 
 
