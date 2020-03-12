@@ -2,7 +2,6 @@
 
 ### Agenda
 * Introducing conteinerization
-* Images VS Containers: Running Existing Images as Containers
 * Creating your own Images and modifying existing Images
 
 ### Introducing conteinerization
