@@ -72,13 +72,8 @@
 
 ### Recommended Readings
 * [Getting Started with Docker](https://docs.docker.com/get-started/): Official Docker getting started page
-* [Docker Workflow overview](https://docs.docker.com/engine/docker-overview/): Diagram showing lifecycle of images and containers
-* [Images and Containers](https://docs.docker.com/v17.09/engine/userguide/storagedriver/imagesandcontainers/): The anatomy of images and containers
 * [Docker Cheatsheet](https://github.com/wsargent/docker-cheat-sheet): All docker commands and cookbook recipes in a single place!
 * [Official docker samples](https://docs.docker.com/samples/): Some Dockerfile samples
-* [Official Images Dockerfiles](https://github.com/docker-library/): Images for the Official Docker Images
 * [PySpark Jupyter image tutorial](https://medium.com/@suci/running-pyspark-on-jupyter-notebook-with-docker-602b18ac4494): how to run a PySpark Jupyter image in less than 3 minutes
-* [Hadoop image](https://hub.docker.com/r/sequenceiq/hadoop-docker/): how to run a hadoop docker container
-* [What is Kubernetes](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/): What is Kubernetes, a high level architecture tool for container orchestration
 
 [Back To Main Page](./index.md)
