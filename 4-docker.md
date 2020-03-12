@@ -37,26 +37,6 @@
 9. Now start another `hello-world` container using the `--rm` flag. Do you need to remove it after?
 10. Is `hello-world` a 'long running' process or a 'short lived' process?
 
-### Images VS Containers: Running Existing Images as Containers
-
-* A Image is a blueprint that allows us to create multiple instances from it. Each instance is called a container.
-* When running a container, we first check if the requested image is available locally. If not, docker searches for it in the specified repository or at DockerHub.
-* Images can be seen as composable layers, and this is one of the biggest factors os success of Docker. Multiple different images can share layers, which saves a lot of space and decreases the load up time.
-* Containers are an ephemeral layer created on top of the image layers just during it's own lifetime.
-
-![](./docker-files/container-layers.jpg)
-
-1. List all the images you have downloaded to your local machine.
-2. List all the containers you have running or stopped on your local machine.
-3. Open your browser and type localhost:80 in the url
-4. Run the following image using the terminal:
-* nginx (map the port 80:80 from the container)
-5. Test the fact your webservers is up by checking the same url again. You should get a different page now.
-6. Run nginx again, but this time run it in detached mode using `-d`, what's the difference?
-7. List all the images you have downloaded to your local machine. Are there new images here?
-8. Make sure to stop and remove your containers.
-9. Cleanup your images to avoid consuming too much space now.
-
 ### Creating your own Images and modifying existing Images
 * [Dockerfile description](https://docker-curriculum.com/#dockerfile): Basics on writing a Dockerfile
 * In order to create our own images we have to add a new file to our project: the Dockerfile. We'll need to use the `docker build` command in order to build an image from a Dockerfile
